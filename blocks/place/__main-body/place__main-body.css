@@ -1,0 +1,17 @@
+.place__main-body {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 48px 0 0 0;
+    padding: 0;
+}
+
+@media (max-width: 720px) {
+    .place__main-body {
+        flex-direction: column;
+        align-items: center;
+        margin: 32px 0 0 0;
+    }
+}

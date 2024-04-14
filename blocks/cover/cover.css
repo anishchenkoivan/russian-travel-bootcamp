@@ -1,0 +1,32 @@
+.cover {
+    position: relative;
+    width: 100%;
+    max-width: 1184px;
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 92px 0 0 0;
+    padding: 0;
+    background: url("../../images/overlay-background.png") no-repeat center center / cover;
+}
+
+@media (max-width: 1200px) {
+    .cover {
+        width: 100%;
+        min-height: 62.5vw;
+    }
+}
+
+@media (max-width: 928px) {
+    .cover {
+        margin: 90px 0 0 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .cover {
+        margin: 66px 0 0 0;
+    }
+}

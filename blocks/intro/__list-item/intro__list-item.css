@@ -1,0 +1,9 @@
+.intro__list-item {
+    width: 100%;
+    text-align: left;
+    color: white;
+    line-height: 18px;
+    font-size: 12px;
+    font-family: InterBold, sans-serif;
+    margin: 0;
+}

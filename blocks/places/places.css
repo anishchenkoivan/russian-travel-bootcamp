@@ -1,0 +1,30 @@
+.places {
+    position: relative;
+    margin: 92px 0 0 0;
+    max-width: 984px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1080px) {
+    .places {
+        width: calc(100% - 96px);
+    }
+}
+
+@media (max-width: 928px) {
+    .places {
+        margin: 88px 0 0 0;
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 720px) {
+    .places {
+        margin: 64px 0 0 0;
+        width: 100%;
+    }
+}

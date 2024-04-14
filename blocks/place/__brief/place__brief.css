@@ -1,0 +1,17 @@
+.place__brief {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 720px) {
+    .place__brief {
+        flex-direction: column;
+        align-items: flex-start;
+        width: calc(100% - 32px);
+    }
+}

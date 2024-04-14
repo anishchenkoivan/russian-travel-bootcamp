@@ -1,0 +1,25 @@
+.place__main-text {
+    position: relative;
+    width: calc(100% - 500px);
+    margin: 0;
+}
+
+@media (max-width: 1080px) {
+    .place__main-text {
+        width: calc(100% - 472px);
+    }
+}
+
+@media (max-width: 928px) {
+    .place__main-text {
+        width: calc(100% - 368px);
+    }
+}
+
+@media (max-width: 720px) {
+    .place__main-text {
+        width: calc(100% - 32px);
+        flex-direction: column;
+        margin: 32px 0 0 0;
+    }
+}

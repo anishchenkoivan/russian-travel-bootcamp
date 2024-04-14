@@ -1,0 +1,13 @@
+.place__paragraph {
+    width: 100%;
+    text-align: left;
+    color: white;
+    line-height: 29px;
+    font-size: 18px;
+    font-family: InterRegular, sans-serif;
+    margin: 0;
+}
+
+.place__paragraph:not(:first-child) {
+    margin: 26px 0 0 0;
+}

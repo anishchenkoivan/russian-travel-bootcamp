@@ -1,0 +1,14 @@
+.place__link {
+    width: 100%;
+    text-align: left;
+    color: white;
+    line-height: 22px;
+    font-size: 18px;
+    font-family: InterRegular, sans-serif;
+    margin: 0;
+    text-underline-offset: 3px;
+}
+
+.place__link:hover {
+    cursor: pointer;
+}
