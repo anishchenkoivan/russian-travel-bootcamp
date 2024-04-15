@@ -1,11 +1,13 @@
 .cover__title {
     position: relative;
-    width: 560px;
+    max-width: 560px;
+    width: 100%;
     text-align: center;
     color: white;
     line-height: 76px;
     font-size: 72px;
-    font-family: InterBlack, sans-serif;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
     text-decoration: none;
     margin: 0;
     pointer-events: none;
@@ -13,7 +15,7 @@
 
 @media (max-width: 720px) {
     .cover__title {
-        width: calc(100% - 32px);
+        max-width: calc(100% - 32px);
         line-height: 35px;
         font-size: 32px;
     }

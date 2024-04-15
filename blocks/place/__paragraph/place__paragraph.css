@@ -4,7 +4,8 @@
     color: white;
     line-height: 29px;
     font-size: 18px;
-    font-family: InterRegular, sans-serif;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
     margin: 0;
 }
 
