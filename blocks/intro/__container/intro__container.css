@@ -1,6 +1,6 @@
 .intro__container {
     position: relative;
-    max-width: 690px;
+    max-width: 720px;
 }
 
 @media (max-width: 928px) {

@@ -1,5 +1,6 @@
 .place__paragraph {
-    width: 100%;
+    /* max-width: 484px; */
+    max-width: 456px;
     text-align: left;
     color: white;
     line-height: 29px;
@@ -11,4 +12,11 @@
 
 .place__paragraph:not(:first-child) {
     margin: 26px 0 0 0;
+}
+
+@media (max-width: 1023px) {
+    .place__paragraph {
+        line-height: 26px;
+        font-size: 16px;
+    }
 }

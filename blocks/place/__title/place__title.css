@@ -20,7 +20,8 @@
 
 @media (max-width: 928px) {
     .place__title {
-        width: 340px;
+        max-width: 335px;
+        width: 100%;
         line-height: 46px;
         font-size: 42px;
     }

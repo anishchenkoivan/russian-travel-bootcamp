@@ -1,4 +1,5 @@
 .footer__list-link {
+    display: inline-block;
     text-align: left;
     color: white;
     line-height: 18px;
@@ -7,4 +8,11 @@
     font-weight: 400;
     margin: 0 19px 0 0;
     text-decoration: none;
+}
+
+@media (max-width: 320px) {
+    .footer__list-link {
+        font-size: 24px;
+        line-height: 24px;;
+    }
 }
