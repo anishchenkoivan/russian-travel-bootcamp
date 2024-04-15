@@ -11,7 +11,7 @@
 
 @media (max-width: 1080px) {
     .places {
-        width: calc(100% - 96px);
+        width: 100%;
     }
 }
 

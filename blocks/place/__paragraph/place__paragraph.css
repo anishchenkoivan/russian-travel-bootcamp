@@ -1,6 +1,5 @@
 .place__paragraph {
-    /* max-width: 484px; */
-    max-width: 456px;
+    max-width: 484px;
     text-align: left;
     color: white;
     line-height: 29px;
